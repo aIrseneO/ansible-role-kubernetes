@@ -183,7 +183,7 @@ None.
 
   roles:
     - geerlingguy.docker
-    - geerlingguy.kubernetes
+    - airseneo.kubernetes
 ```
 
 ### Two or more nodes (single control-plane) cluster
@@ -210,7 +210,7 @@ Playbook:
 
   roles:
     - geerlingguy.docker
-    - geerlingguy.kubernetes
+    - airseneo.kubernetes
 ```
 
 Then, log into the Kubernetes control plane, and run `kubectl get nodes` as root, and you should see a list of all the servers.
